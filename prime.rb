@@ -6,6 +6,7 @@ def prime(num)?
       is_prime = false
     else
       is_prime = true
+    end
   end
   is_prime
 end
