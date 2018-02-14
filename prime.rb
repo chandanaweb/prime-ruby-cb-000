@@ -5,7 +5,7 @@ def prime?(num)
     return is_prime = false
   else
   for i in 2..num-1 do
-    if num%i===0
+    if num % i== 0
       is_prime = false
     else
       is_prime = true
