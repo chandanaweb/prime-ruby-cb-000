@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(num)?
+def prime?(num)
   is_prime = true
   for i in 2..num-1 do
     if num%i===0
